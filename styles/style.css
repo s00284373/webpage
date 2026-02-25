@@ -1,0 +1,21 @@
+body {
+    font-family: cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(212, 222, 255);
+
+}
+
+h1 {
+    color: rgb(0, 71, 83);
+}
+
+#mainText
+{
+    text-align: justify;
+}
+
+.fullWidthContent
+{
+    width: 100%;
+}
