@@ -67,8 +67,13 @@ h2 {
 
 h1,
 h2,
+iframe,
 p {
     padding: 10px;
+}
+
+iframe {
+    border-radius: 30px;
 }
 
 aside {
