@@ -11,8 +11,10 @@ header img {
     float: left;
 }
 
-section img {
+article img {
     margin: 6px;
+    float: left;
+    max-width: 150px;
 }
 
 nav ul {
@@ -49,7 +51,7 @@ header {
 
 footer {
     position: fixed;
-    background-color: rgb(6, 8, 39);
+    backdrop-filter: blur(10px);
     text-align: center;
     width: 100%;
     bottom: 0px;
@@ -62,11 +64,13 @@ footer p {
 }
 
 h1 {
-    color: orange;
+    color: rgb(255, 224, 166);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 h2 {
     color: rgb(255, 209, 124);
+    clear: both;
 }
 
 h1,
@@ -90,4 +94,33 @@ aside {
     color: black;
     border-top-left-radius: 67px;
     border-bottom-left-radius: 67px;
+}
+
+section a {
+    color:rgb(156, 209, 255);
+}
+
+table { 
+    border: 1px solid white;
+    margin: 5px;
+}
+
+#logo {
+    max-width: 5%;
+    float: right;
+    border-radius: 67px;
+}
+
+section article p{
+      column-count: 2;
+      padding-right: 20%;
+}
+
+#top, #bottom {
+
+    border: 2px solid rgb(156, 209, 255);
+    border-radius: 67px ;
+    color: rgb(156, 209, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
