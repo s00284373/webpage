@@ -11,6 +11,10 @@ header img {
     float: left;
 }
 
+section img {
+    margin: 6px;
+}
+
 nav ul {
     text-align: right;
     list-style-type: none;
